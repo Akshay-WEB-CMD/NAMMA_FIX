@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namma Fix – Awesome Computer & CCTV Solutions in Bengaluru</title>
+  <meta name="description" content="Namma Fix provides high-quality computer sales, repair, networking, and professional CCTV installation & maintenance services in Bengaluru. Transparent pricing and same-day support.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Structured Data / Local Business Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Namma Fix",
+      "image": "https://nammafix.in/assets/logo.png",
+      "@id": "https://nammafix.in/#organization",
+      "url": "https://nammafix.in",
+      "telephone": "+919108868324",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Koramangala 4th Block",
+        "addressLocality": "Bengaluru",
+        "postalCode": "560034",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 12.9339,
+        "longitude": 77.6244
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nammafix",
+        "https://twitter.com/nammafix"
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="logo-link" id="logoLink">
+        <img src="logo.jpg" alt="Namma Fix Logo" style="height: 48px; width: auto; border-radius: var(--radius-sm);">
+        <span>Namma Fix</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-sec="home">Home</a>
+        <a href="#services" class="nav-link" data-sec="services">Services</a>
+        <a href="#quote" class="nav-link" data-sec="quote">Quote</a>
+        <a href="#about" class="nav-link" data-sec="about">About</a>
+        <a href="#faqs" class="nav-link" data-sec="faqs">FAQs</a>
+        <a href="#contact" class="nav-link" data-sec="contact">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="tel:9108868324" class="phone-display" id="headerPhoneLink">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>+91 91088 68324</span>
+        </a>
+        <a href="#quote" class="btn btn-primary" style="padding: 10px 20px; font-size: 14px;" id="headerQuoteBtn">Get Quote</a>
+        <button class="burger-menu" id="burgerBtn" aria-label="Toggle Menu">
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Animated Particles Background -->
+    <div class="hero-particles" id="heroParticles"></div>
+    <!-- Floating orbs -->
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>⚡</span> Same-day Support in Bengaluru
+        </div>
+        <h1 class="hero-title">Namma Fix –<br><span class="hero-title-accent">Premium IT &amp; CCTV</span><br>Solutions</h1>
+        <p class="hero-desc" style="font-weight: 700; color: var(--secondary); margin-bottom: 12px; font-size: 18px; text-transform: uppercase; letter-spacing: 1px;">Fixing Today for a Better Tomorrow</p>
+        <p class="hero-desc">New systems, quick hardware repairs, robust networking, and professional security camera installations for homes, shops, and offices across all of Bengaluru.</p>
+        
+        <!-- Live Search Bar Feature (LocalRamu style) -->
+        <div class="search-box-container">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="serviceSearchInput" placeholder="Search IT & CCTV services (e.g. RAM upgrade, camera installation)..." autocomplete="off">
+            <button type="button" class="btn-search-clear" id="btnSearchClear" style="display: none;">✕</button>
+          </div>
+          <div class="search-suggestions" id="searchSuggestions" style="display: none;"></div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num">500+</div>
+            <div class="hero-stat-label">Happy Clients</div>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">70+</div>
+            <div class="hero-stat-label">Areas Served</div>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">5⭐</div>
+            <div class="hero-stat-label">Rating</div>
+          </div>
+        </div>
+        <div class="hero-btns">
+          <a href="#quote" class="btn btn-primary" id="heroQuoteBtn">
+            Get a Quote
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#booking" class="btn btn-secondary" id="heroBookingBtn">Book a Visit</a>
+          <a href="https://wa.me/919108868324?text=Hi%20Namma%20Fix,%20I%20need%20help%20with%20computer/CCTV%20services." target="_blank" class="btn btn-whatsapp" id="heroWhatsAppBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.37 5.054L2 22l5.077-1.33a9.927 9.927 0 0 0 4.933 1.315h.005c5.505 0 9.989-4.478 9.99-9.984A9.97 9.97 0 0 0 12.012 2zm5.799 14.286c-.247.697-1.22 1.282-1.688 1.344-.452.06-1.026.114-3.072-.733-2.617-1.083-4.29-3.753-4.42-3.927-.13-.174-1.066-1.417-1.066-2.703 0-1.286.671-1.921.909-2.167.238-.246.52-.307.693-.307.173 0 .346.002.497.01.157.008.368-.06.576.44.212.51.727 1.772.792 1.902.065.13.109.282.022.456-.087.174-.13.282-.26.434-.13.152-.273.338-.39.454-.129.129-.264.27-.113.528.151.258.673 1.109 1.442 1.794.992.884 1.826 1.157 2.086 1.286.26.13.411.109.563-.065.152-.174.65-.758.823-1.017.173-.258.346-.217.584-.13.238.087 1.515.714 1.775.844.26.13.433.195.498.307.065.112.065.65-.182 1.347z"/></svg>
+            WhatsApp Chat
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-svg-wrapper">
+          <svg width="100%" height="100%" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Glowing circuit board background -->
+            <rect x="30" y="60" width="340" height="230" rx="20" fill="url(#hero-board-grad)" stroke="url(#hero-stroke-grad)" stroke-width="3"/>
+            <!-- Screen glow -->
+            <rect x="55" y="85" width="290" height="160" rx="10" fill="#070D1A"/>
+            <!-- Screen content: code lines -->
+            <rect x="70" y="100" width="120" height="6" rx="3" fill="#1E88E5" opacity="0.7"/>
+            <rect x="70" y="114" width="80" height="5" rx="2.5" fill="#00E5FF" opacity="0.5"/>
+            <rect x="70" y="126" width="150" height="5" rx="2.5" fill="#42A5F5" opacity="0.4"/>
+            <rect x="70" y="140" width="60" height="5" rx="2.5" fill="#64B5F6" opacity="0.4"/>
+            <rect x="70" y="154" width="110" height="5" rx="2.5" fill="#1E88E5" opacity="0.3"/>
+            <rect x="70" y="168" width="90" height="5" rx="2.5" fill="#00E5FF" opacity="0.3"/>
+            <!-- Screen green dot indicator -->
+            <circle cx="310" cy="107" r="5" fill="#00C853" opacity="0.9"/>
+            <!-- Monitor stand -->
+            <path d="M185 290 L215 290 L230 350 L170 350 Z" fill="#1E3A5F" opacity="0.8"/>
+            <rect x="148" y="350" width="104" height="10" rx="5" fill="#0D2137"/>
+            <!-- Camera pod -->
+            <g transform="translate(290, 200)">
+              <!-- Camera body -->
+              <rect x="10" y="20" width="90" height="55" rx="12" fill="url(#cam-body-grad)" stroke="#00B0FF" stroke-width="2.5"/>
+              <!-- Lens -->
+              <circle cx="55" cy="47" r="22" fill="#0A1929" stroke="#1E88E5" stroke-width="3"/>
+              <circle cx="55" cy="47" r="14" fill="#0F2A44"/>
+              <circle cx="55" cy="47" r="7" fill="#00E5FF" opacity="0.6"/>
+              <!-- IR LEDs -->
+              <circle cx="22" cy="30" r="3" fill="#EF5350" opacity="0.9"/>
+              <circle cx="88" cy="30" r="3" fill="#EF5350" opacity="0.9"/>
+              <circle cx="22" cy="64" r="3" fill="#EF5350" opacity="0.9"/>
+              <circle cx="88" cy="64" r="3" fill="#EF5350" opacity="0.9"/>
+              <!-- Wifi signal lines -->
+              <path d="M105 30 Q120 20 135 30" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+              <path d="M110 22 Q125 8 140 22" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+              <!-- Wall bracket -->
+              <path d="M55 20 L55 0" stroke="#1E88E5" stroke-width="4" stroke-linecap="round"/>
+              <rect x="40" y="0" width="30" height="8" rx="4" fill="#1E3A5F"/>
+            </g>
+            <!-- Connection lines -->
+            <path d="M375 220 L420 200 L420 150" stroke="#1E88E5" stroke-width="2" stroke-dasharray="5 4" opacity="0.6"/>
+            <circle cx="420" cy="150" r="5" fill="#00E5FF" opacity="0.8"/>
+            <path d="M130 290 L80 320 L80 390" stroke="#00C853" stroke-width="2" stroke-dasharray="5 4" opacity="0.6"/>
+            <circle cx="80" cy="390" r="5" fill="#00C853" opacity="0.8"/>
+            <!-- Network nodes -->
+            <circle cx="430" cy="380" r="12" fill="#1E88E5" opacity="0.25"/>
+            <circle cx="430" cy="380" r="6" fill="#1E88E5" opacity="0.7"/>
+            <path d="M220 350 L430 380" stroke="#1E88E5" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+            <path d="M80 390 L430 380" stroke="#00C853" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3"/>
+            <defs>
+              <linearGradient id="hero-board-grad" x1="30" y1="60" x2="370" y2="290" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#0D2137"/>
+                <stop offset="100%" stop-color="#0A1929"/>
+              </linearGradient>
+              <linearGradient id="hero-stroke-grad" x1="30" y1="60" x2="370" y2="290" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#1E88E5"/>
+                <stop offset="100%" stop-color="#00B0FF"/>
+              </linearGradient>
+              <linearGradient id="cam-body-grad" x1="10" y1="20" x2="100" y2="75" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#1E3A5F"/>
+                <stop offset="100%" stop-color="#0D2137"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <!-- Floating tag chips around SVG -->
+        <div class="hero-chip hero-chip-1">💻 PC Repair</div>
+        <div class="hero-chip hero-chip-2">📹 CCTV Install</div>
+        <div class="hero-chip hero-chip-3">🌐 Networking</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Namma Fix Section -->
+  <section class="why-section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Fast Response</h3>
+          <p class="feature-desc">Same-day inspection and on-site visits across Bengaluru for quick diagnostics.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3 class="feature-title">Genuine Parts</h3>
+          <p class="feature-desc">We use only original, brand-certified components with manufacturer warranty.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3 class="feature-title">Transparent Quote</h3>
+          <p class="feature-desc">Interactive estimations. Zero hidden costs, full cost breakdown beforehand.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3 class="feature-title">Local Support</h3>
+          <p class="feature-desc">Proudly serving local homes, retail shops, and commercial offices in Bengaluru.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Overview Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">What We Do</span>
+        <h2 class="section-title">Our Premium Services</h2>
+        <p class="section-desc">Tailored technical solutions for desktops, laptops, enterprise networks, and advanced surveillance setups.</p>
+      </div>
+
+      <div class="services-cards-grid">
+        <!-- Card 1 -->
+        <div class="service-overview-card">
+          <div class="service-card-banner">
+            <div class="service-card-banner-bg" style="background-color: #1e293b;"></div>
+            <span class="service-card-banner-icon">💻</span>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Computer Services</h3>
+            <p class="service-card-desc">Complete lifecycle support including component installations, troubleshooting, networking configurations, custom desktop builds, and preventive maintenance.</p>
+            <div class="service-tag-list">
+              <span class="service-tag">Desktop Sales</span>
+              <span class="service-tag">OS Upgrades</span>
+              <span class="service-tag">Wi-Fi Setup</span>
+              <span class="service-tag">SSD Installation</span>
+            </div>
+            <a href="#computer-details" class="service-card-link">
+              Explore Sub-services
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="service-overview-card">
+          <div class="service-card-banner">
+            <div class="service-card-banner-bg" style="background-color: #0f172a;"></div>
+            <span class="service-card-banner-icon">📹</span>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">CCTV Security Services</h3>
+            <p class="service-card-desc">End-to-end security design, smart IP camera deployment, multi-channel DVR/NVR setups, remote mobile configuration, and post-installation inspection audits.</p>
+            <div class="service-tag-list">
+              <span class="service-tag">HD Analog / IP</span>
+              <span class="service-tag">NVR/DVR Setup</span>
+              <span class="service-tag">Remote Stream</span>
+              <span class="service-tag">Annual Maintenance</span>
+            </div>
+            <a href="#cctv-details" class="service-card-link">
+              Explore Sub-services
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detailed Sub-services Grid Layout -->
+      <div class="detailed-services-container">
+        
+        <!-- Computer Details Section -->
+        <div class="detail-row" id="computer-details">
+          <div class="detail-content-wrapper scroll-trigger-element">
+            <span class="section-subtitle">Computers</span>
+            <h3 class="section-title" style="font-size: 28px; margin-top: 8px;">Hardware, Networking & Repair</h3>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">We take care of all software installations, thermal paste upgrades, hardware optimizations, RAM upgrades, laptop motherboard repair, and reliable enterprise networking solutions.</p>
+            
+            <div class="detail-list">
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>New PC Sales & Custom Assembly</h4>
+                  <p>Designed around your workload requirements (Gaming, Editing, Corporate).</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>High-Speed SSD & RAM Upgrades</h4>
+                  <p>Boost boot times and speed up heavy applications instantly.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>OS Troubleshooting & Malware Cleansing</h4>
+                  <p>Installation of licensed operating systems and antivirus controls.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>Office LAN / Wi-Fi Network Deployment</h4>
+                  <p>Structured cabling, switch installation, and firewall configurations.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="detail-price-tag">
+              <span>Diagnostics / Visit Charge:</span>
+              <strong>₹299 onwards</strong> (waived upon service approval)
+            </div>
+          </div>
+          
+          <div class="detail-visual scroll-trigger-element">
+            <!-- Simulated premium vector representation of computer motherboard/cards -->
+            <svg width="100%" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="280" rx="12" fill="#F1F5F9"/>
+              <rect x="40" y="40" width="320" height="200" rx="8" fill="#1E293B"/>
+              <!-- Green Board Lines -->
+              <rect x="60" y="60" width="100" height="100" rx="6" fill="#0F172A" stroke="#1E88E5" stroke-width="2"/>
+              <rect x="180" y="60" width="160" height="20" rx="4" fill="#334155"/>
+              <rect x="180" y="90" width="160" height="20" rx="4" fill="#334155"/>
+              <!-- Connecting Tracks -->
+              <path d="M110 160 L110 210 L180 210" stroke="#00E676" stroke-width="2"/>
+              <circle cx="180" cy="210" r="4" fill="#00E676"/>
+              <path d="M260 110 L260 180 L200 180" stroke="#1E88E5" stroke-width="2"/>
+              <circle cx="200" cy="180" r="4" fill="#1E88E5"/>
+              <!-- CPU text -->
+              <text x="82" y="116" fill="#FFFFFF" font-family="'Outfit', sans-serif" font-weight="bold" font-size="16">CPU</text>
+              <rect x="220" y="150" width="80" height="50" rx="4" fill="#0F172A" stroke="#00B0FF" stroke-width="2"/>
+              <text x="242" y="180" fill="#00B0FF" font-family="monospace" font-weight="bold" font-size="12">GPU</text>
+            </svg>
+          </div>
+        </div>
+
+        <!-- CCTV Details Section -->
+        <div class="detail-row reverse" id="cctv-details">
+          <div class="detail-content-wrapper scroll-trigger-element">
+            <span class="section-subtitle">CCTV Security</span>
+            <h3 class="section-title" style="font-size: 28px; margin-top: 8px;">Surveillance & System Maintenance</h3>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">Protect your assets with ultra-clear surveillance. We source, configure, and install HD Dome cameras, Bullet cameras, IP cameras, and network video recorders with smartphone sync.</p>
+            
+            <div class="detail-list">
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>Home & Commercial Smart Installation</h4>
+                  <p>Optimal coverage layout design to eliminate blind spots.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>NVR/DVR System Upgrades</h4>
+                  <p>Replacement of high-grade monitoring drives (1TB to 8TB+).</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>Mobile Remote Access Config</h4>
+                  <p>Stream real-time cameras live on your phone, anywhere in the world.</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-item-icon">✓</div>
+                <div class="detail-item-text">
+                  <h4>Annual Maintenance Contracts (AMC)</h4>
+                  <p>Periodic lens cleaning, cable review, and power backup testing.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="detail-price-tag">
+              <span>Cable & Layout Installation:</span>
+              <strong>₹450 per point onwards</strong>
+            </div>
+          </div>
+          
+          <div class="detail-visual scroll-trigger-element">
+            <!-- Simulated CCTV vector graphics -->
+            <svg width="100%" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="280" rx="12" fill="#F1F5F9"/>
+              <!-- Secure Zone Overlay -->
+              <rect x="40" y="40" width="320" height="200" rx="8" fill="#0F172A"/>
+              <!-- Camera Vector -->
+              <g transform="translate(140, 70)">
+                <path d="M30 40 L90 40 L100 70 L20 70 Z" fill="#1E293B" stroke="#1E88E5" stroke-width="4"/>
+                <rect x="40" y="70" width="40" height="20" fill="#334155"/>
+                <circle cx="60" cy="90" r="16" fill="#00E676" stroke="#FFFFFF" stroke-width="2"/>
+                <circle cx="60" cy="90" r="6" fill="#090D16"/>
+                <!-- Infrared sensor nodes -->
+                <circle cx="48" cy="78" r="2" fill="#EF4444"/>
+                <circle cx="72" cy="78" r="2" fill="#EF4444"/>
+                <!-- Wall Bracket -->
+                <path d="M60 40 L60 10 L10 10" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+              </g>
+              <!-- Alert Signal -->
+              <path d="M260 90 L300 90" stroke="#00B0FF" stroke-width="3" stroke-linecap="round"/>
+              <path d="M265 80 L295 100" stroke="#00B0FF" stroke-width="3" stroke-linecap="round"/>
+              <text x="50" y="210" fill="#64748B" font-family="monospace" font-size="12">[ZONE A ACTIVE MONITORING]</text>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Process Steps Section -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Workflow</span>
+        <h2 class="section-title">Our Simple Service Process</h2>
+        <p class="section-desc">How Namma Fix delivers transparent and high-speed repair and installations directly to you.</p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: repeat(4, 1fr); gap: 32px;">
+        <div class="feature-card" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.08); text-align: center; color: white;">
+          <div class="feature-icon" style="background: rgba(30, 136, 229, 0.2); color: var(--secondary); margin: 0 auto 20px auto;">1</div>
+          <h3 class="feature-title">Contact & Request</h3>
+          <p class="feature-desc" style="color: #94A3B8;">Submit our booking form or drop a text on WhatsApp explaining your needs.</p>
+        </div>
+        <div class="feature-card" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.08); text-align: center; color: white;">
+          <div class="feature-icon" style="background: rgba(0, 230, 118, 0.2); color: var(--accent); margin: 0 auto 20px auto;">2</div>
+          <h3 class="feature-title">Quick Diagnosis</h3>
+          <p class="feature-desc" style="color: #94A3B8;">On-site or remote technicians analyze the CPU motherboard or CCTV layout.</p>
+        </div>
+        <div class="feature-card" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.08); text-align: center; color: white;">
+          <div class="feature-icon" style="background: rgba(30, 136, 229, 0.2); color: var(--secondary); margin: 0 auto 20px auto;">3</div>
+          <h3 class="feature-title">Transparent Quote</h3>
+          <p class="feature-desc" style="color: #94A3B8;">Get a clear cost breakdown detailing parts and labor with zero hidden fees.</p>
+        </div>
+        <div class="feature-card" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.08); text-align: center; color: white;">
+          <div class="feature-icon" style="background: rgba(0, 230, 118, 0.2); color: var(--accent); margin: 0 auto 20px auto;">4</div>
+          <h3 class="feature-title">Service & Delivery</h3>
+          <p class="feature-desc" style="color: #94A3B8;">Fast completion with testing review, invoice submission, and warranty card.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Namma Fix Prime & Trust section (LocalRamu Prime inspired) -->
+  <section class="section section-prime" id="prime">
+    <div class="container">
+      <div class="prime-wrapper">
+        <div class="prime-left">
+          <div class="prime-badge">👑 NAMMA FIX PRIME</div>
+          <h2 class="section-title" style="text-align: left;">Upgrade to Priority Service with Prime</h2>
+          <p class="section-desc" style="text-align: left; margin-left: 0;">Get the ultimate service convenience, guaranteed response speeds, and verified technicians for all your home and business IT/CCTV needs.</p>
+          
+          <div class="prime-features-list">
+            <div class="prime-feat-item">
+              <span class="prime-feat-icon">🔥</span>
+              <div class="prime-feat-text">
+                <h4>Free Inspection Visits</h4>
+                <p>Inspection and diagnostics visit charges (₹299) are fully waived with any approved service booking.</p>
+              </div>
+            </div>
+            <div class="prime-feat-item">
+              <span class="prime-feat-icon">🛡️</span>
+              <div class="prime-feat-text">
+                <h4>30-Day Service Warranty</h4>
+                <p>Complete post-service protection warranty. If any issue re-occurs within 30 days, we'll fix it for free.</p>
+              </div>
+            </div>
+            <div class="prime-feat-item">
+              <span class="prime-feat-icon">⚡</span>
+              <div class="prime-feat-text">
+                <h4>Priority SAME-DAY Dispatch</h4>
+                <p>Need immediate help? Prime requests are escalated for priority dispatch within 3 hours anywhere in Bengaluru.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="prime-right">
+          <div class="prime-pricing-card">
+            <div class="prime-card-header">
+              <h3>Namma Fix Prime</h3>
+              <p>Special Premium Protection Plan</p>
+            </div>
+            <div class="prime-card-price">
+              <span class="currency">₹</span><span class="amount">0</span><span class="period">/ Year</span>
+            </div>
+            <p class="prime-pricing-note">Free Activation for a Limited Time! Attached automatically to all bookings this month.</p>
+            <ul class="prime-card-specs">
+              <li>✓ Waived Inspection Charge</li>
+              <li>✓ Same-day Priority Visit</li>
+              <li>✓ 30-Day Service Guarantee</li>
+              <li>✓ Verified Expert Technicians</li>
+              <li>✓ 24/7 Dedicated Owner Support Line</li>
+            </ul>
+            <a href="#quote" class="btn btn-primary" style="width: 100%; text-align: center; display: block; margin-top: 20px;">Book With Prime Benefits</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Request Section -->
+  <section class="section" id="quote">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Service Request</span>
+        <h2 class="section-title">Tell Us Your Requirement</h2>
+        <p class="section-desc">Fill in your details and describe what you need — our owner will personally get in touch with you.</p>
+      </div>
+
+      <div class="quote-grid">
+        <!-- Left Side: Service Request Form -->
+        <div class="quote-card">
+          <!-- Simple Service Request Form -->
+          <form id="quoteForm">
+            <!-- Service Type Selection -->
+            <div class="form-group">
+              <label class="form-label">What service do you need?</label>
+              <div class="service-selector-grid">
+                <label class="service-select-card selected" id="svc-card-new-computer">
+                  <input type="radio" name="serviceType" value="New Custom PC / Laptop" checked>
+                  <div class="service-select-card-icon">🖥️</div>
+                  <div class="service-select-card-title">New PC / Laptop</div>
+                  <p class="service-select-card-desc">Buy or configure a new system.</p>
+                </label>
+                <label class="service-select-card" id="svc-card-computer-repair">
+                  <input type="radio" name="serviceType" value="Computer Repair">
+                  <div class="service-select-card-icon">🛠️</div>
+                  <div class="service-select-card-title">Computer Repair</div>
+                  <p class="service-select-card-desc">Fix issues, upgrades, diagnostics.</p>
+                </label>
+                <label class="service-select-card" id="svc-card-networking">
+                  <input type="radio" name="serviceType" value="Networking / Wi-Fi Setup">
+                  <div class="service-select-card-icon">🌐</div>
+                  <div class="service-select-card-title">Networking</div>
+                  <p class="service-select-card-desc">LAN, Wi-Fi & office cabling.</p>
+                </label>
+                <label class="service-select-card" id="svc-card-cctv-install">
+                  <input type="radio" name="serviceType" value="CCTV Installation">
+                  <div class="service-select-card-icon">📹</div>
+                  <div class="service-select-card-title">CCTV Installation</div>
+                  <p class="service-select-card-desc">New cameras, DVR/NVR setup.</p>
+                </label>
+                <label class="service-select-card" id="svc-card-cctv-amc">
+                  <input type="radio" name="serviceType" value="CCTV Maintenance / AMC">
+                  <div class="service-select-card-icon">🔧</div>
+                  <div class="service-select-card-title">CCTV Maintenance</div>
+                  <p class="service-select-card-desc">Repair, tuning & annual AMC.</p>
+                </label>
+                <label class="service-select-card" id="svc-card-other">
+                  <input type="radio" name="serviceType" value="Other IT Support">
+                  <div class="service-select-card-icon">💡</div>
+                  <div class="service-select-card-title">Other Support</div>
+                  <p class="service-select-card-desc">Any other IT requirement.</p>
+                </label>
+              </div>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="user-name">Your Full Name *</label>
+                <input type="text" class="form-input" id="user-name" name="userName" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="user-phone">Mobile Number *</label>
+                <input type="tel" class="form-input" id="user-phone" name="userPhone" placeholder="10-digit mobile number" required>
+              </div>
+            </div>
+
+            <!-- Area Selection -->
+            <div class="form-group">
+              <label class="form-label" for="user-area">Your Area in Bengaluru *</label>
+              <select class="form-select" id="user-area" name="userArea" required>
+                <option value="" disabled selected>Select your locality</option>
+                <optgroup label="Central Bengaluru">
+                  <option value="MG Road">MG Road</option>
+                  <option value="Brigade Road">Brigade Road</option>
+                  <option value="Commercial Street">Commercial Street</option>
+                  <option value="Shivajinagar">Shivajinagar</option>
+                  <option value="Richmond Town">Richmond Town</option>
+                  <option value="Ulsoor">Ulsoor</option>
+                  <option value="Cubbon Park Area">Cubbon Park Area</option>
+                </optgroup>
+                <optgroup label="South Bengaluru">
+                  <option value="Koramangala">Koramangala</option>
+                  <option value="HSR Layout">HSR Layout</option>
+                  <option value="BTM Layout">BTM Layout</option>
+                  <option value="Jayanagar">Jayanagar</option>
+                  <option value="JP Nagar">JP Nagar</option>
+                  <option value="Banashankari">Banashankari</option>
+                  <option value="Basavanagudi">Basavanagudi</option>
+                  <option value="Electronic City">Electronic City</option>
+                  <option value="Bommanahalli">Bommanahalli</option>
+                  <option value="Sarjapur Road">Sarjapur Road</option>
+                  <option value="Begur Road">Begur Road</option>
+                  <option value="Anekal">Anekal</option>
+                  <option value="Hulimavu">Hulimavu</option>
+                  <option value="Gottigere">Gottigere</option>
+                </optgroup>
+                <optgroup label="East Bengaluru">
+                  <option value="Indiranagar">Indiranagar</option>
+                  <option value="Whitefield">Whitefield</option>
+                  <option value="Marathahalli">Marathahalli</option>
+                  <option value="KR Puram">KR Puram</option>
+                  <option value="Domlur">Domlur</option>
+                  <option value="Varthur">Varthur</option>
+                  <option value="Brookefield">Brookefield</option>
+                  <option value="HAL / Murugeshpalya">HAL / Murugeshpalya</option>
+                  <option value="Old Airport Road">Old Airport Road</option>
+                  <option value="Tin Factory">Tin Factory</option>
+                  <option value="Mahadevpura">Mahadevpura</option>
+                  <option value="Kadugodi">Kadugodi</option>
+                  <option value="Hoodi">Hoodi</option>
+                </optgroup>
+                <optgroup label="North Bengaluru">
+                  <option value="Hebbal">Hebbal</option>
+                  <option value="Yelahanka">Yelahanka</option>
+                  <option value="RT Nagar">RT Nagar</option>
+                  <option value="Frazer Town">Frazer Town</option>
+                  <option value="Lingarajapuram">Lingarajapuram</option>
+                  <option value="Vidyaranyapura">Vidyaranyapura</option>
+                  <option value="Thanisandra">Thanisandra</option>
+                  <option value="Bagaluru">Bagaluru</option>
+                  <option value="Devanahalli">Devanahalli</option>
+                  <option value="Jakkur">Jakkur</option>
+                  <option value="Sanjay Nagar">Sanjay Nagar</option>
+                  <option value="MS Palya">MS Palya</option>
+                </optgroup>
+                <optgroup label="West Bengaluru">
+                  <option value="Malleshwaram">Malleshwaram</option>
+                  <option value="Rajajinagar">Rajajinagar</option>
+                  <option value="Vijayanagar">Vijayanagar</option>
+                  <option value="Nagarbhavi">Nagarbhavi</option>
+                  <option value="Kengeri">Kengeri</option>
+                  <option value="Peenya">Peenya</option>
+                  <option value="Yeshwanthpur">Yeshwanthpur</option>
+                  <option value="Dasarahalli">Dasarahalli</option>
+                  <option value="Jalahalli">Jalahalli</option>
+                  <option value="Bangalore North">Bangalore North</option>
+                </optgroup>
+                <optgroup label="Tech Corridors">
+                  <option value="Bellandur">Bellandur</option>
+                  <option value="Outer Ring Road">Outer Ring Road (ORR)</option>
+                  <option value="Manyata Tech Park">Manyata Tech Park Area</option>
+                  <option value="Bagmane Tech Park">Bagmane Tech Park Area</option>
+                  <option value="Ecospace / Kadubeesanahalli">Ecospace / Kadubeesanahalli</option>
+                  <option value="AECS Layout">AECS Layout</option>
+                  <option value="Ramamurthy Nagar">Ramamurthy Nagar</option>
+                </optgroup>
+                <optgroup label="Nearby Areas">
+                  <option value="Bannerghatta Road">Bannerghatta Road</option>
+                  <option value="Mysore Road">Mysore Road</option>
+                  <option value="Hosur Road">Hosur Road</option>
+                  <option value="Tumkur Road">Tumkur Road</option>
+                  <option value="Other">Other (specify below)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- GPS Location -->
+            <div class="form-group">
+              <label class="form-label">Share Your Location (Optional — helps us reach faster)</label>
+              <div class="gps-location-wrapper">
+                <button type="button" class="btn-gps" id="quoteGetLocationBtn" onclick="requestGPSLocation('quote')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+                  📍 Send My Current Location
+                </button>
+                <div class="gps-status" id="quoteGpsStatus"></div>
+                <input type="hidden" id="quoteLocationData" name="locationData">
+              </div>
+            </div>
+
+            <!-- Requirement Description -->
+            <div class="form-group">
+              <label class="form-label" for="user-msg">Describe Your Requirement *</label>
+              <textarea class="form-textarea" id="user-msg" name="userMsg" placeholder="Example: My laptop is slow and doesn't start properly. I need a CCTV installation for 4 cameras at my shop in HSR Layout. My office needs LAN setup for 10 computers..." required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary" style="width:100%; padding: 16px; font-size: 16px;" id="quoteSubmitBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              Send My Requirement
+            </button>
+          </form>
+
+          <!-- Success Confirmation Panel -->
+          <div class="quote-confirm-panel" id="quoteConfirmPanel">
+            <div class="confirm-icon">✓</div>
+            <h3 class="confirm-title">Request Sent Successfully!</h3>
+            <p class="confirm-desc">Thank you! Our owner will personally call you within <strong>30 minutes</strong> to discuss your requirement and provide the best solution.</p>
+            <div class="confirm-direct-contact">
+              <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 16px;">Can't wait? Contact us directly right now:</p>
+              <a href="tel:9108868324" class="btn btn-primary" style="width:100%; margin-bottom: 10px;">📞 Call Owner: +91 91088 68324</a>
+              <a href="https://wa.me/919108868324?text=Hi%20Namma%20Fix%2C%20I%20need%20help%20with%20a%20service." target="_blank" class="btn btn-whatsapp" style="width:100%;">💬 WhatsApp Now</a>
+            </div>
+            <button class="btn btn-light" id="quoteResetBtn" style="width:100%; margin-top:10px;">Submit Another Request</button>
+          </div>
+        </div>
+
+        <!-- Right Side: Owner Contact Panel -->
+        <div class="quote-summary-box" id="quoteSummaryBox">
+          <div class="owner-contact-panel">
+            <div class="owner-avatar">
+              <img src="logo.jpg" alt="Namma Fix Owner" style="width:70px; height:70px; border-radius:50%; object-fit:cover; border: 3px solid var(--primary);">
+            </div>
+            <div class="owner-info">
+              <h3 class="owner-name">Namma Fix Owner</h3>
+              <p class="owner-desc">We personally handle all service requests and provide honest, transparent solutions for every client.</p>
+            </div>
+
+            <div class="owner-contact-list">
+              <a href="tel:9108868324" class="owner-contact-item" id="sidebarCallBtn">
+                <div class="owner-contact-icon" style="background: rgba(37,99,235,0.12); color: var(--primary);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="owner-contact-text">
+                  <div class="owner-contact-label">Call Owner Directly</div>
+                  <div class="owner-contact-val">+91 91088 68324</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <a href="https://wa.me/919108868324?text=Hi%20Namma%20Fix%2C%20I%20need%20help%20with%20a%20service%20in%20Bengaluru." target="_blank" class="owner-contact-item" id="sidebarWhatsAppBtn">
+                <div class="owner-contact-icon" style="background: rgba(37,211,102,0.12); color: #25D366;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.37 5.054L2 22l5.077-1.33a9.927 9.927 0 0 0 4.933 1.315h.005c5.505 0 9.989-4.478 9.99-9.984A9.97 9.97 0 0 0 12.012 2zm5.799 14.286c-.247.697-1.22 1.282-1.688 1.344-.452.06-1.026.114-3.072-.733-2.617-1.083-4.29-3.753-4.42-3.927-.13-.174-1.066-1.417-1.066-2.703 0-1.286.671-1.921.909-2.167.238-.246.52-.307.693-.307.173 0 .346.002.497.01.157.008.368-.06.576.44.212.51.727 1.772.792 1.902.065.13.109.282.022.456-.087.174-.13.282-.26.434-.13.152-.273.338-.39.454-.129.129-.264.27-.113.528.151.258.673 1.109 1.442 1.794.992.884 1.826 1.157 2.086 1.286.26.13.411.109.563-.065.152-.174.65-.758.823-1.017.173-.258.346-.217.584-.13.238.087 1.515.714 1.775.844.26.13.433.195.498.307.065.112.065.65-.182 1.347z"/></svg>
+                </div>
+                <div class="owner-contact-text">
+                  <div class="owner-contact-label">WhatsApp Message</div>
+                  <div class="owner-contact-val">+91 91088 68324</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <a href="mailto:support@nammafix.in" class="owner-contact-item" id="sidebarEmailBtn">
+                <div class="owner-contact-icon" style="background: rgba(37,99,235,0.08); color: var(--primary);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="owner-contact-text">
+                  <div class="owner-contact-label">Email Us</div>
+                  <div class="owner-contact-val">support@nammafix.in</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+
+            <div class="owner-hours-badge">
+              <span>🟢</span>
+              <span>Available Mon – Sun, 9:00 AM – 9:00 PM</span>
+            </div>
+
+            <div class="owner-trust-badges">
+              <div class="trust-badge">✅ Same-Day Response</div>
+              <div class="trust-badge">🛡️ Genuine Parts</div>
+              <div class="trust-badge">⭐ 5-Star Service</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-dark" id="booking">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Scheduler</span>
+        <h2 class="section-title">Book an On-Site Diagnostic Visit</h2>
+        <p class="section-desc">Reserve a dedicated date/time for desktop setup, network repair, or CCTV troubleshooting.</p>
+      </div>
+
+      <div class="booking-grid">
+        <!-- Column 1: Info content -->
+        <div>
+          <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 20px;">On-Site Support Details</h3>
+          <p style="color: #94A3B8; margin-bottom: 30px;">Our technicians travel fully equipped with diagnostics kits, replacement spares (SSD, RAM, cabling, connectors), and high-grade mounting brackets for immediate CCTV fixes.</p>
+          
+          <div class="contact-info-panel">
+            <div class="contact-info-card">
+              <div class="contact-info-icon-box" style="background: rgba(30,136,229,0.2); color: var(--secondary);">🔧</div>
+              <div class="contact-info-text">
+                <h4 style="color: white;">Service Diagnostic Fee</h4>
+                <p style="color: #94A3B8;">A flat visit rate of ₹299 applies, which is 100% waived if you approve the final repair quotation.</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon-box" style="background: rgba(0,230,118,0.2); color: var(--accent);">🔋</div>
+              <div class="contact-info-text">
+                <h4 style="color: white;">Warranty Guarantee</h4>
+                <p style="color: #94A3B8;">30-day labor warranty on repairs, plus brand warranty (1-5 years) on parts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Booking Form -->
+        <div class="booking-form-card" style="color: var(--text-dark);">
+          <form id="bookingForm">
+            <div class="form-group">
+              <label class="form-label" for="book-service-type">Select Required Support</label>
+              <select class="form-select" id="book-service-type" name="bookService" required>
+                <option value="computer-hardware">Computer Hardware Diagnostics / Repair</option>
+                <option value="network-cabling">Office Networking / Wifi LAN Scaffolding</option>
+                <option value="cctv-install">CCTV Security Camera Setup</option>
+                <option value="cctv-maintenance">CCTV Surveillance AMC Inspection</option>
+                <option value="remote-support">Remote Desktop Diagnostics (Quick resolution)</option>
+              </select>
+            </div>
+
+            <!-- Calendar Picker -->
+            <div class="form-group">
+              <div class="calendar-picker-wrapper">
+                <div class="calendar-header-label">
+                  <span class="form-label" style="margin-bottom:0;">Select Booking Date</span>
+                  <strong id="calendarMonthYear" style="font-size:14px; color:var(--primary);">August 2026</strong>
+                </div>
+                <div class="calendar-grid" id="calendarDays">
+                  <!-- Header Days -->
+                  <div class="calendar-day-header">Su</div>
+                  <div class="calendar-day-header">Mo</div>
+                  <div class="calendar-day-header">Tu</div>
+                  <div class="calendar-day-header">We</div>
+                  <div class="calendar-day-header">Th</div>
+                  <div class="calendar-day-header">Fr</div>
+                  <div class="calendar-day-header">Sa</div>
+                  <!-- Days injection -->
+                </div>
+                <!-- Hidden input tracking selected date string -->
+                <input type="hidden" id="selectedDateInput" name="bookingDate" required>
+              </div>
+            </div>
+
+            <!-- Time slot selector -->
+            <div class="form-group">
+              <label class="form-label">Select Preferred Time Slot</label>
+              <div class="time-slots-grid" id="timeSlots">
+                <div class="time-slot-btn" data-slot="09:00 AM - 12:00 PM">09:00 AM - 12:00 PM</div>
+                <div class="time-slot-btn" data-slot="12:00 PM - 03:00 PM">12:00 PM - 03:00 PM</div>
+                <div class="time-slot-btn" data-slot="03:00 PM - 06:00 PM">03:00 PM - 06:00 PM</div>
+              </div>
+              <input type="hidden" id="selectedTimeInput" name="bookingTime" required>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="book-name">Name</label>
+                <input type="text" class="form-input" id="book-name" name="bookName" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="book-phone">Phone</label>
+                <input type="tel" class="form-input" id="book-phone" name="bookPhone" placeholder="Phone" required>
+              </div>
+            </div>
+
+            <!-- GPS Location Sharing for Booking -->
+            <div class="form-group">
+              <label class="form-label">Share Location for Precise On-Site Dispatch</label>
+              <div class="gps-location-wrapper">
+                <button type="button" class="btn-gps" id="bookingGetLocationBtn" onclick="requestGPSLocation('booking')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+                  📍 Send My Current Location
+                </button>
+                <div class="gps-status" id="bookingGpsStatus"></div>
+                <input type="hidden" id="bookingLocationData" name="bookingLocation">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px;" id="submitBookingBtn">Book On-Site Visit</button>
+          </form>
+          
+          <!-- Booking success message card inside block -->
+          <div class="quote-confirm-panel" id="bookingConfirmPanel">
+            <div class="confirm-icon">✓</div>
+            <h3 class="confirm-title" style="font-size: 22px;">Visit Booked Successfully!</h3>
+            <p class="confirm-desc">A technician has been queued to confirm your visit. We will call you within 15 minutes to review symptoms and details.</p>
+            <button class="btn btn-primary" id="bookingResetBtn" style="width:100%;">Book Another Appointment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Who We Are</span>
+        <h2 class="section-title">About Namma Fix</h2>
+        <p class="section-desc">Serving Bengaluru's residential and commercial IT infrastructure with dedication and expertise.</p>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-visual about-map-card">
+          <!-- Enhanced Bengaluru Map SVG -->
+          <svg width="100%" height="300" viewBox="0 0 420 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="mapBg" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#EFF6FF"/>
+                <stop offset="100%" stop-color="#DBEAFE"/>
+              </radialGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <rect width="420" height="300" rx="16" fill="url(#mapBg)"/>
+            <!-- Grid lines -->
+            <g opacity="0.15">
+              <line x1="0" y1="75" x2="420" y2="75" stroke="#1E88E5" stroke-width="1"/>
+              <line x1="0" y1="150" x2="420" y2="150" stroke="#1E88E5" stroke-width="1"/>
+              <line x1="0" y1="225" x2="420" y2="225" stroke="#1E88E5" stroke-width="1"/>
+              <line x1="105" y1="0" x2="105" y2="300" stroke="#1E88E5" stroke-width="1"/>
+              <line x1="210" y1="0" x2="210" y2="300" stroke="#1E88E5" stroke-width="1"/>
+              <line x1="315" y1="0" x2="315" y2="300" stroke="#1E88E5" stroke-width="1"/>
+            </g>
+            <!-- Bengaluru rough outline -->
+            <path d="M120 50 L200 30 L280 55 L340 80 L360 150 L350 220 L300 270 L200 280 L110 250 L70 180 L80 100 Z" 
+                  fill="rgba(30,136,229,0.06)" stroke="#1E88E5" stroke-width="2" stroke-dasharray="6 3" opacity="0.7"/>
+            <!-- Roads/Ring roads -->
+            <ellipse cx="210" cy="155" rx="90" ry="80" fill="none" stroke="#93C5FD" stroke-width="2" stroke-dasharray="5 3" opacity="0.5"/>
+            <!-- Area dots -->
+            <circle cx="210" cy="155" r="40" fill="#1E88E5" opacity="0.08"/>
+            <!-- HQ marker (large) -->
+            <circle cx="210" cy="155" r="18" fill="#1E88E5" opacity="0.2" filter="url(#glow)"/>
+            <circle cx="210" cy="155" r="10" fill="#1E88E5" opacity="0.5"/>
+            <circle cx="210" cy="155" r="5" fill="#1E88E5"/>
+            <text x="228" y="158" fill="#1D4ED8" font-family="'Outfit', sans-serif" font-weight="800" font-size="11">HQ</text>
+            <!-- Area markers -->
+            <circle cx="260" cy="110" r="4" fill="#3B82F6"/>
+            <text x="267" y="114" fill="#475569" font-family="sans-serif" font-size="9">Whitefield</text>
+            <circle cx="160" cy="120" r="4" fill="#3B82F6"/>
+            <text x="112" y="124" fill="#475569" font-family="sans-serif" font-size="9">Malleshwaram</text>
+            <circle cx="230" cy="210" r="4" fill="#3B82F6"/>
+            <text x="237" y="214" fill="#475569" font-family="sans-serif" font-size="9">E-City</text>
+            <circle cx="160" cy="200" r="4" fill="#3B82F6"/>
+            <text x="110" y="204" fill="#475569" font-family="sans-serif" font-size="9">JP Nagar</text>
+            <circle cx="270" cy="170" r="4" fill="#3B82F6"/>
+            <text x="277" y="174" fill="#475569" font-family="sans-serif" font-size="9">Marathahalli</text>
+            <circle cx="195" cy="90" r="4" fill="#3B82F6"/>
+            <text x="200" y="88" fill="#475569" font-family="sans-serif" font-size="9">Hebbal</text>
+            <!-- Coverage radius rings -->
+            <circle cx="210" cy="155" r="115" fill="none" stroke="#1E88E5" stroke-width="1" stroke-dasharray="3 5" opacity="0.3"/>
+            <!-- Label -->
+            <text x="210" y="292" fill="#64748B" font-family="sans-serif" font-size="10" text-anchor="middle">Bengaluru Coverage Area</text>
+          </svg>
+          <div class="about-map-badge">📍 Serving 70+ areas across Bengaluru</div>
+        </div>
+        <div>
+          <h3 style="font-size: 26px; font-weight: 800; margin-bottom: 20px;">Your Trusted Local Technical Support Partner</h3>
+          <p style="color: var(--text-muted); margin-bottom: 16px;">Founded in Bengaluru, Namma Fix is built on a mission to eliminate technical friction. We understand the annoyance of a slow computer, a broken LAN network, or an offline CCTV feed. Our service engineers are certified, locally deployed, and trained in modern systems diagnosis.</p>
+          <p style="color: var(--text-muted); margin-bottom: 24px;">Whether you need single laptop servicing at your home, a multi-camera installation for a retail outlet, or active IT infrastructure consulting for a corporate startup, Namma Fix brings elite reliability and transparent pricing.</p>
+        </div>
+      </div>
+
+      <!-- Full Areas Coverage Grid -->
+      <div class="areas-full-section">
+        <div class="areas-full-header">
+          <h3>We Serve All Areas Across Bengaluru</h3>
+          <p>Our technicians are deployed across 70+ localities for fast on-site visits</p>
+        </div>
+        <div class="areas-zone-grid">
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">🏙️ Central</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">MG Road</span>
+              <span class="area-badge">Brigade Road</span>
+              <span class="area-badge">Shivajinagar</span>
+              <span class="area-badge">Richmond Town</span>
+              <span class="area-badge">Commercial Street</span>
+              <span class="area-badge">Ulsoor</span>
+            </div>
+          </div>
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">🌿 South</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">Koramangala</span>
+              <span class="area-badge">HSR Layout</span>
+              <span class="area-badge">BTM Layout</span>
+              <span class="area-badge">Jayanagar</span>
+              <span class="area-badge">JP Nagar</span>
+              <span class="area-badge">Banashankari</span>
+              <span class="area-badge">Basavanagudi</span>
+              <span class="area-badge">Electronic City</span>
+              <span class="area-badge">Sarjapur</span>
+              <span class="area-badge">Hulimavu</span>
+            </div>
+          </div>
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">🌅 East</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">Indiranagar</span>
+              <span class="area-badge">Whitefield</span>
+              <span class="area-badge">Marathahalli</span>
+              <span class="area-badge">KR Puram</span>
+              <span class="area-badge">Domlur</span>
+              <span class="area-badge">Varthur</span>
+              <span class="area-badge">HAL Area</span>
+              <span class="area-badge">Mahadevpura</span>
+              <span class="area-badge">Kadugodi</span>
+              <span class="area-badge">Hoodi</span>
+            </div>
+          </div>
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">🌄 North</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">Hebbal</span>
+              <span class="area-badge">Yelahanka</span>
+              <span class="area-badge">RT Nagar</span>
+              <span class="area-badge">Frazer Town</span>
+              <span class="area-badge">Thanisandra</span>
+              <span class="area-badge">Vidyaranyapura</span>
+              <span class="area-badge">Devanahalli</span>
+              <span class="area-badge">Jakkur</span>
+              <span class="area-badge">Sanjay Nagar</span>
+            </div>
+          </div>
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">🌇 West</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">Malleshwaram</span>
+              <span class="area-badge">Rajajinagar</span>
+              <span class="area-badge">Vijayanagar</span>
+              <span class="area-badge">Nagarbhavi</span>
+              <span class="area-badge">Kengeri</span>
+              <span class="area-badge">Peenya</span>
+              <span class="area-badge">Yeshwanthpur</span>
+              <span class="area-badge">Dasarahalli</span>
+              <span class="area-badge">Jalahalli</span>
+            </div>
+          </div>
+          <div class="areas-zone-card">
+            <div class="areas-zone-title">💻 Tech Hubs</div>
+            <div class="areas-mini-grid">
+              <span class="area-badge">Bellandur</span>
+              <span class="area-badge">Outer Ring Road</span>
+              <span class="area-badge">Manyata Tech</span>
+              <span class="area-badge">Bagmane Tech</span>
+              <span class="area-badge">Ecospace</span>
+              <span class="area-badge">AECS Layout</span>
+              <span class="area-badge">Old Airport Rd</span>
+              <span class="area-badge">Kadubeesanahalli</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-desc">Real reviews from homes, retail outlets, and office clients across Bengaluru.</p>
+      </div>
+
+      <div class="testimonials-carousel-wrapper">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card active" data-index="0">
+            <p class="testimonial-quote">"Namma Fix helped set up 8 CCTV security cameras in our retail showroom in Indiranagar. The live camera sync on my mobile phone runs perfectly, and the pricing was completely transparent. Outstanding support!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SR</div>
+              <div class="author-info">
+                <h4>Suresh R.</h4>
+                <p>Owner, Suresh Retail Plaza - Indiranagar</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" data-index="1">
+            <p class="testimonial-quote">"My desktop was failing to boot, showing frequent blue screens. I booked an appointment with Namma Fix. The engineer came right to my Koramangala apartment, replaced the thermal paste, and upgraded the SSD. Highly recommended."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AN</div>
+              <div class="author-info">
+                <h4>Anjali N.</h4>
+                <p>Freelancer - Koramangala</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" data-index="2">
+            <p class="testimonial-quote">"Excellent service process. They came to set up structural networking switch cabling for our startup office in HSR layout. Professional team, fast setup and clean routing. Five stars!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">KP</div>
+              <div class="author-info">
+                <h4>Karthik P.</h4>
+                <p>Co-founder, NextGen Labs - HSR Layout</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-nav">
+          <button class="testimonial-nav-btn" id="testimonialPrev" aria-label="Previous review">&lt;</button>
+          <div class="testimonial-dots" id="testimonialDots">
+            <span class="testimonial-dot active" data-index="0"></span>
+            <span class="testimonial-dot" data-index="1"></span>
+            <span class="testimonial-dot" data-index="2"></span>
+          </div>
+          <button class="testimonial-nav-btn" id="testimonialNext" aria-label="Next review">&gt;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section class="section" id="faqs">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Answers to common queries regarding repairs, warranty support, and service execution.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">What does the ₹299 inspection visit charge cover?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              The ₹299 visit fee covers our technician's travel and standard diagnostics at your premises. If you agree to carry out the repairs recommended by our technician, this ₹299 fee is entirely waived (deducted from your final bill).
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">Do you offer any warranty on replaced components?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Yes, all new components (RAM, NVMe SSDs, Hard Drives, NVR systems, CCTV camera models) carry original brand manufacturer warranty periods ranging from 1 to 5 years. Namma Fix also provides a dedicated 30-day labor warranty on our workmanship.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">How fast can you configure a new custom computer?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Once you confirm your custom computer specifications, assembly, hardware burn-in testing, and OS/driver optimization are completed within 24 to 48 hours. We then deliver and setup the tower at your home or office in Bengaluru.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">Can I access my security cameras on my phone when outside India?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Absolutely. During our CCTV installation and setup, our technician configures secure cloud stream connectivity. As long as your home/office network is active and your smartphone has internet access, you can stream live HD video feeds globally.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3 class="faq-question">What payment methods do you accept?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              We accept Google Pay, PhonePe, Paytm, UPI bank transfers, Credit/Debit cards, and Cash. Payments are processed after work completion, and a digital invoice is sent to your email.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog / Tips Preview Section -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Insights</span>
+        <h2 class="section-title">Blog & Troubleshooting Tips</h2>
+        <p class="section-desc">Quick advice from our technical team to keep your systems running smoothly.</p>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-card-img-placeholder">💾</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Storage</span>
+            <h3 class="blog-card-title" style="color:var(--text-dark);">Why upgrading to an NVMe SSD is the best decision for slow laptops</h3>
+            <p class="blog-card-desc">Find out how replacing your traditional spinning hard drive can improve boot times by up to 10x.</p>
+            <a href="#quote" class="blog-card-link">Learn More &gt;</a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-img-placeholder">🔒</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Surveillance</span>
+            <h3 class="blog-card-title" style="color:var(--text-dark);">Dome vs Bullet CCTV Cameras: Which one is right for your shop?</h3>
+            <p class="blog-card-desc">An in-depth breakdown comparing waterproofing, viewing angles, and aesthetics of security layouts.</p>
+            <a href="#quote" class="blog-card-link">Learn More &gt;</a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-img-placeholder">🌐</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Networking</span>
+            <h3 class="blog-card-title" style="color:var(--text-dark);">Fixing unstable Wi-Fi dead-zones in corporate office layouts</h3>
+            <p class="blog-card-desc">Simple configurations for mesh network switches, structured routing, and router placement reviews.</p>
+            <a href="#quote" class="blog-card-link">Learn More &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Location Page Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Namma Fix</h2>
+        <p class="section-desc">Have questions or want to speak directly to a technical agent? Drop a message below.</p>
+      </div>
+
+      <div class="contact-section-grid">
+        <!-- Contact Info column -->
+        <div class="contact-info-panel">
+          <div class="contact-info-card">
+            <div class="contact-info-icon-box">📞</div>
+            <div class="contact-info-text">
+              <h4>Call Us Directly</h4>
+              <p><a href="tel:9108868324" id="contactPhoneBtn">+91 91088 68324</a></p>
+              <p style="font-size:12px; color:var(--text-muted);">Mon-Sun: 9:00 AM - 9:00 PM</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-card">
+            <div class="contact-info-icon-box">✉️</div>
+            <div class="contact-info-text">
+              <h4>Send An Email</h4>
+              <p><a href="mailto:support@nammafix.in" id="contactEmailBtn">support@nammafix.in</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-info-card">
+            <div class="contact-info-icon-box">📍</div>
+            <div class="contact-info-text">
+              <h4>Business HQ Address</h4>
+              <p>#40, 6th Cross, 1st Main, Vinayaka Nagara, Mysore Road, Bengaluru - 560 026</p>
+            </div>
+          </div>
+
+          <!-- Simulated Location Map using stylized elements -->
+          <div class="contact-map-placeholder">
+            <div class="contact-map-grid-bg"></div>
+            <div class="contact-map-content">
+              <span style="font-size: 24px;">📍</span>
+              <h4 style="margin: 8px 0 4px 0;">Serving Entire Bengaluru</h4>
+              <p style="font-size: 12px; color: var(--text-muted); max-width: 240px; margin: 0 auto;">Active service technicians dispatched locally in HSR, Indiranagar, Jayanagar, Koramangala, and more.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form column -->
+        <div class="booking-form-card">
+          <h3 style="font-size: 22px; font-weight:700; margin-bottom: 24px;">Send Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Your Name</label>
+              <input type="text" class="form-input" id="contact-name" name="contactName" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Email Address</label>
+              <input type="email" class="form-input" id="contact-email" name="contactEmail" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-phone">Phone Number</label>
+              <input type="tel" class="form-input" id="contact-phone" name="contactPhone" placeholder="Enter 10-digit mobile" required>
+            </div>
+            <!-- GPS Location in Contact Form -->
+            <div class="form-group">
+              <label class="form-label">Your Location (Optional)</label>
+              <div class="gps-location-wrapper">
+                <button type="button" class="btn-gps" id="contactGetLocationBtn" onclick="requestGPSLocation('contact')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+                  📍 Send My Current Location
+                </button>
+                <div class="gps-status" id="contactGpsStatus"></div>
+                <input type="hidden" id="contactLocationData" name="contactLocation">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-msg">How can we help you?</label>
+              <textarea class="form-textarea" id="contact-msg" name="contactMsg" placeholder="Describe requirements..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;" id="submitContactBtn">Send Message</button>
+          </form>
+
+          <div class="quote-confirm-panel" id="contactConfirmPanel">
+            <div class="confirm-icon">✓</div>
+            <h3 class="confirm-title" style="font-size: 22px;">Message Dispatched!</h3>
+            <p class="confirm-desc">We have received your message. Our customer service representative will call or email you shortly.</p>
+            <button class="btn btn-primary" id="contactResetBtn" style="width:100%;">Send Another Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand-logo">
+          <img src="logo.jpg" alt="Namma Fix Logo" style="height: 48px; width: auto; border-radius: var(--radius-sm);">
+          <span>Namma Fix</span>
+        </div>
+        <p class="footer-brand-desc">Fast, professional computer repairs, office networking switch designs, and HD security CCTV camera installations across Bengaluru. Genuine components with guarantee.</p>
+        <div class="footer-social-links">
+          <a href="#" class="footer-social-icon" aria-label="Facebook">F</a>
+          <a href="#" class="footer-social-icon" aria-label="Twitter">T</a>
+          <a href="#" class="footer-social-icon" aria-label="Instagram">I</a>
+          <a href="#" class="footer-social-icon" aria-label="LinkedIn">L</a>
+        </div>
+      </div>
+      
+      <div>
+        <h4 class="footer-title">Our Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services" class="footer-link">Custom Desktop Sales</a></li>
+          <li><a href="#services" class="footer-link">SSD & RAM Upgrades</a></li>
+          <li><a href="#services" class="footer-link">Laptop Motherboard Repair</a></li>
+          <li><a href="#services" class="footer-link">Network Cabling / Wi-Fi</a></li>
+          <li><a href="#services" class="footer-link">CCTV Camera Installation</a></li>
+          <li><a href="#services" class="footer-link">CCTV Surveillance AMC</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">Home / Intro</a></li>
+          <li><a href="#services" class="footer-link">Services List</a></li>
+          <li><a href="#quote" class="footer-link">Live Cost Estimator</a></li>
+          <li><a href="#booking" class="footer-link">Book Diagnostic Visit</a></li>
+          <li><a href="#about" class="footer-link">About Namma Fix</a></li>
+          <li><a href="#faqs" class="footer-link">Help & FAQs</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Contact Info</h4>
+        <ul class="footer-links" style="gap:16px;">
+          <li style="color:#94A3B8; font-size:14px; display:flex; gap:10px; align-items:flex-start;">
+            <span>📍</span>
+            <span>#40, 6th Cross, 1st Main, Vinayaka Nagara, Mysore Road, Bengaluru - 560 026</span>
+          </li>
+          <li style="color:#94A3B8; font-size:14px; display:flex; gap:10px; align-items:center;">
+            <span>📞</span>
+            <a href="tel:9108868324" style="color:white; font-weight:700;">+91 91088 68324</a>
+          </li>
+          <li style="color:#94A3B8; font-size:14px; display:flex; gap:10px; align-items:center;">
+            <span>✉️</span>
+            <a href="mailto:support@nammafix.in" style="color:white;">support@nammafix.in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Namma Fix. All Rights Reserved.</p>
+      <p>Designed for premium IT & CCTV Support in Bengaluru.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Live Chat / WhatsApp Widget -->
+  <div class="whatsapp-widget-container" id="whatsappWidgetContainer">
+    <!-- Chat Dialog Panel -->
+    <div class="whatsapp-chat-panel" id="whatsappChatPanel">
+      <div class="whatsapp-chat-header">
+        <div class="whatsapp-chat-avatar">NF</div>
+        <div class="whatsapp-chat-agent-info">
+          <h4>Namma Fix Support</h4>
+          <p>Online • Typically replies instantly</p>
+        </div>
+        <span class="whatsapp-chat-close" id="whatsappChatClose">&times;</span>
+      </div>
+      <div class="whatsapp-chat-body">
+        <div class="whatsapp-chat-msg">
+          Hello! 👋 Need help with laptop repair, network setup, or security camera quotation?
+        </div>
+      </div>
+      <div class="whatsapp-chat-footer">
+        <a href="https://wa.me/919108868324?text=Hi%20Namma%20Fix,%20I%20need%20help%20with%20computer/CCTV%20services." target="_blank" class="btn btn-whatsapp" style="width:100%; font-size:13px; padding:10px 16px;" id="widgetWhatsAppSubmitBtn">
+          Start WhatsApp Chat
+        </a>
+      </div>
+    </div>
+    
+    <!-- Pulse Button -->
+    <button class="whatsapp-trigger-btn" id="whatsappTriggerBtn" aria-label="Open Chat">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.37 5.054L2 22l5.077-1.33a9.927 9.927 0 0 0 4.933 1.315h.005c5.505 0 9.989-4.478 9.99-9.984A9.97 9.97 0 0 0 12.012 2zm5.799 14.286c-.247.697-1.22 1.282-1.688 1.344-.452.06-1.026.114-3.072-.733-2.617-1.083-4.29-3.753-4.42-3.927-.13-.174-1.066-1.417-1.066-2.703 0-1.286.671-1.921.909-2.167.238-.246.52-.307.693-.307.173 0 .346.002.497.01.157.008.368-.06.576.44.212.51.727 1.772.792 1.902.065.13.109.282.022.456-.087.174-.13.282-.26.434-.13.152-.273.338-.39.454-.129.129-.264.27-.113.528.151.258.673 1.109 1.442 1.794.992.884 1.826 1.157 2.086 1.286.26.13.411.109.563-.065.152-.174.65-.758.823-1.017.173-.258.346-.217.584-.13.238.087 1.515.714 1.775.844.26.13.433.195.498.307.065.112.065.65-.182 1.347z"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile Bottom Sticky Quick Action Bar (LocalRamu style) -->
+  <div class="mobile-action-bar" id="mobileActionBar">
+    <a href="#home" class="mobile-action-btn" id="mobileActionHome">
+      <span class="mobile-action-btn-icon">🏠</span>
+      <span class="mobile-action-btn-label">Home</span>
+    </a>
+    <a href="#services" class="mobile-action-btn" id="mobileActionServices">
+      <span class="mobile-action-btn-icon">🛠️</span>
+      <span class="mobile-action-btn-label">Services</span>
+    </a>
+    <a href="#booking" class="mobile-action-btn" id="mobileActionBooking">
+      <span class="mobile-action-btn-icon">📅</span>
+      <span class="mobile-action-btn-label">Book Visit</span>
+    </a>
+    <a href="tel:9108868324" class="mobile-action-btn call-action" id="mobileActionCall">
+      <span class="mobile-action-btn-icon">📞</span>
+      <span class="mobile-action-btn-label">Call</span>
+    </a>
+    <a href="https://wa.me/919108868324?text=Hi%20Namma%20Fix,%20I%20need%20help%20with%20computer/CCTV%20services." target="_blank" class="mobile-action-btn whatsapp-action" id="mobileActionWhatsApp">
+      <span class="mobile-action-btn-icon">💬</span>
+      <span class="mobile-action-btn-label">WhatsApp</span>
+    </a>
+  </div>
+
+
+
+  <!-- JS Logic Script -->
+  <script src="app.js"></script>
+</body>
+</html>
